@@ -1,0 +1,53 @@
+body {
+  background: #dedede;
+  width: content;
+  height: content;
+  color: #000;
+}
+.s1 {
+  position: relative;
+  opacity: 0.9;
+}
+.s1 .t1 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  font-size: 40px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  padding: 12px 24px;
+}
+.s1 .t2 {
+  position: absolute;
+  top: 83%;
+  left: 50%;
+  font-size: 15px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  padding: 5px 10px;
+}
+.img1 button {
+  width: 20%;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background: rgba(229, 255, 232, 0.11);
+  color: white;
+  font-size: 20px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.container .card-deck {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*
+*/
