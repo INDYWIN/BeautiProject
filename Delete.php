@@ -9,7 +9,7 @@ if (isset($_GET['iduser'])) {
     if ($sql) {
         echo "<script>";
         echo "alert('ลบสำเร็จ');";
-        echo "window.location='dashboard.php';";
+        echo "window.location='index.php';";
         echo "</script>";
     }
     else {
@@ -26,7 +26,7 @@ if (isset($_GET['idem'])) {
     if ($sql) {
         echo "<script>";
         echo "alert('ลบสำเร็จ');";
-        echo "window.location='dashboard.php';";
+        echo "window.location='index.php';";
         echo "</script>";
     }
     else {
